@@ -96,5 +96,6 @@ streamlit run app.py
 
 ## Author
 EduPro Analytics Dashboard
-Built as an Education Analyst Project using Python and Streamlit.
+Built as an Education Analyst Project using Python and Streamlit
+
 

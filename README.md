@@ -52,6 +52,18 @@ The following analyses were performed:
 - Gender vs course category distribution
 - Course type vs course level analysis
 
+## Dashboard Preview
+### KPi cards
+![KPI Cards](images/KPi.png)
+### Age and GEnder Analysis
+![Age Gender](images/age_gender.png)
+### Course Category Analysis
+![Category Analysis](images/course_catg.png)
+### Course Level Analysis
+![Course Level](images/courselevel_type%20.png)
+### Course category vs gender distribution
+![Course category vs Gender](images/coursecatg_gender.png)
+
 ## Dashboard Features
 
 The streamlit dashboard includes:

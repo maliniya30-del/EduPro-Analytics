@@ -184,15 +184,15 @@ with col1:
     "Advanced":3475,
     "Intermediate":2952
 })
-fig5,ax5=plt.subplots(figsize=(6,4))
-course_level_counts.plot(kind="bar",color="green",ax=ax5)
-for i,v in enumerate(course_level_counts):
-    ax5.text(i,v+20,str(v), ha="center")
-ax5.set_xlabel("Course Level")
-ax5.set_ylabel("Number of Learners")
-plt.xticks(rotation=0)
-plt.tight_layout()
-st.pyplot(fig5)
+   fig5,ax5=plt.subplots(figsize=(6,4))
+   course_level_counts.plot(kind="bar",color="green",ax=ax5)
+   for i,v in enumerate(course_level_counts):
+      ax5.text(i,v+20,str(v), ha="center")
+   ax5.set_xlabel("Course Level")
+   ax5.set_ylabel("Number of Learners")
+   plt.xticks(rotation=0)
+   plt.tight_layout()
+   st.pyplot(fig5)
 with col2:
     st.subheader("Course Type vs Course Level")
     course_type_level =pd.DataFrame({
@@ -200,21 +200,21 @@ with col2:
         "Paid":[1470,1178,949]
 
     },index=["Advanced","Beginner","Intermediate"])
-fig6,ax6=plt.subplots(figsize=(8,5))
-course_type_level.plot(
+    fig6,ax6=plt.subplots(figsize=(8,5))
+    course_type_level.plot(
     kind="bar",
     stacked=True,
-    ax=ax6
-)
-for container in ax6.containers:
-    ax6.bar_label(container,fmt="%d")
-    ax6.text(i,v+20,str(v), ha="center")
-ax6.set_xlabel("Course Level")
-ax6.set_ylabel("Enrollments")
-ax6.legend(title="Course Type")
-plt.xticks(rotation=0)
-plt.tight_layout()
-st.pyplot(fig6)
+    ax=ax6)
+
+    for container in ax6.containers:
+        ax6.bar_label(container,fmt="%d")
+    # ax6.text(i,v+20,str(v), ha="center")
+    ax6.set_xlabel("Course Level")
+    ax6.set_ylabel("Enrollments")
+    ax6.legend(title="Course Type")
+    plt.xticks(rotation=0)
+    plt.tight_layout()
+    st.pyplot(fig6)
 
 #footer
 st.divider()

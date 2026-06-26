@@ -1,0 +1,4 @@
+pandas
+openpyxyl
+streamlit
+matplotlib.pyplot

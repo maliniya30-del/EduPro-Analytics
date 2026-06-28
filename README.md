@@ -28,7 +28,7 @@ The data was provided in excel format and processed using Python.
 - Matplotlib
 - Streamlit
 - Jupyter Notebook
-- Openpyxyl
+- Openpyxl
 
 ## Exploratory Data Analysis (EDA)
 The following analyses were performed:

@@ -25,7 +25,6 @@ The data was provided in excel format and processed using Python.
 ## Technologies Used
 - Python
 - Pandas
-- Numpy
 - Matplotlib
 - Streamlit
 - Jupyter Notebook
